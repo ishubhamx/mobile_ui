@@ -1,0 +1,35 @@
+.nav-wrapper {
+  overflow: hidden;
+}
+.example-container {
+  position: absolute;
+  top: 0px;
+  bottom: 57px;
+  left: 0;
+  right: 0;
+}
+.nav-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.search-component {
+  position: sticky;
+  top: 10px;
+  left: 20px;
+  right: 20px;
+  z-index: 100;
+  margin: 0px 10px;
+}
+.side-nav-cc {
+  width: 50%;
+}
+.bottom-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.body-content {
+  position: sticky;
+  top: 10;
+}

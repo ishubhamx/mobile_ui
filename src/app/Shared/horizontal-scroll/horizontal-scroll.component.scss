@@ -1,0 +1,21 @@
+.more-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: all ease-in-out 2000;
+}
+.next-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.app-icon {
+  margin: auto auto;
+}
+.more-button:hover .app-icon {
+  animation: icon_hover 2s infinite;
+}

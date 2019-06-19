@@ -1,0 +1,23 @@
+<div class="search-wrapper card">
+  <div class="search-options">
+    <mat-icon
+      class="example-icon"
+      aria-hidden="false"
+      aria-label="menu"
+      (click)="navClicked()"
+      >menu</mat-icon
+    >
+    <div class="search-input">
+      <input
+        id="input-search"
+        class="spacer"
+        type="search"
+        placeholder="Search"
+        [(ngModel)]="value"
+      />
+    </div>
+    <mat-icon class="example-icon mic" aria-hidden="false" aria-label="mic"
+      >mic</mat-icon
+    >
+  </div>
+</div>

@@ -1,0 +1,11 @@
+.view-all-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.view-all-header {
+  position: sticky;
+  top: 0px;
+  height: 45px;
+  background: #909090;
+  z-index: 10;
+}

@@ -1,0 +1,28 @@
+<!-- <div class="slider-wrapper" *ngFor="let slide of slides">
+  <app-slide [slide]="slide"></app-slide>
+</div> -->
+<ngb-carousel
+  #carousel
+  *ngIf="images"
+  (swipeleft)="onSwipeLeft()"
+  (swiperight)="onSwipeRight()"
+>
+  <ng-template ngbSlide >
+    <img [src]="images[0]" alt="Random first slide" (click)="openLink(images[0])"/>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="images[1]" alt="Random second slide" />
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="images[2]" alt="Random third slide" />
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="images[2]" alt="Random third slide" />
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="images[2]" alt="Random third slide" />
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="images[2]" alt="Random third slide" />
+  </ng-template>
+</ngb-carousel>
